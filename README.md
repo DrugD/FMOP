@@ -7,6 +7,9 @@ The pre-trained model is available on Google Drive:
 - [gdscv2.csv](https://drive.google.com/file/d/1M7RmBe0byGF1SBfYcaof7V3Z-RO1jF-y/view?usp=drive_link), put it in `../data`
 - [PANCANCER_Genetic_feature.csv](https://drive.google.com/file/d/162eB0mSiaPHzjDNBAK2Kve9rT_4qqSXO/view?usp=drive_link), put it in `../data`
 - [valid_idx_gdscv2.json](https://drive.google.com/file/d/19N1L6l52cVgti_IU2sL4F67PHF0Xfuoa/view?usp=drive_link), put it in `../data`
+  
+The full-data version by the .zip file can be downloaded at [FMOP_Full.zip](https://drive.google.com/file/d/1rxuYfdOw_qzemDmMI2-_R1jnlzm3SuO1/view?usp=drive_link), just rename the Apr03-063301_163.pth (at ./checkpoints/GDSCv2) to Apr03-06:33:01_163.pth, and rename the 
+CLDR_Mar12-070152.pth (at ./data) to CLDR_Mar12-07:01:52.pth.
 
 ## Framework
 
