@@ -140,7 +140,7 @@ class Sampler_mol_condition_cldr(object):
     
         
         # -------- Save generated molecules --------
-        with open(os.path.join(f'/home/lk/project/repaint/MolPaint/log/sample_v4_ring_correct_line_30_IC50_20_30_internal_{internal}.txt'), 'a') as f:
+        with open(os.path.join(f'./log/sample_v4_ring_correct_line_30_IC50_20_30_internal_{internal}.txt'), 'a') as f:
             f.write(f'======w:{self.w}========\n')
             f.write(f'======Config:========\n')
             f.write(f'{self.config.sample.seed},{self.config.controller.config_diff_steps },{self.config.controller.label.cell},{self.config.controller.label.ic50},{self.config.controller.label.gt},{self.config.controller.label.mask},{self.frag_smiles},\n')
@@ -149,10 +149,10 @@ class Sampler_mol_condition_cldr(object):
             
             for smiles in gen_smiles:
                 f.write(f'{smiles}\n')
-        
+
         self.device[0] = f'cuda:{self.device[0]}'
 
-
+        print("Opt Finished.")
         return 'ok'
         # # -------- Evaluation --------
         # scores_1 = get_all_metrics(gen=gen_smiles, k=len(gen_smiles), device=self.device[0], n_jobs=8, test=test_smiles_1, train=train_smiles)
@@ -315,8 +315,8 @@ if __name__ == '__main__':
     internal = int(args.internal)
 
     
-    # model_type = 'molgen'
-    model_type = 'multimolgen'
+    model_type = 'molgen'
+    # model_type = 'multimolgen'
     device = 'cuda:0'
     
     # gen_number
