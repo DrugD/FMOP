@@ -3,11 +3,10 @@
 
 The pre-trained model is available on Google Drive: 
 - [Apr03-06:33:01_163.pth](https://drive.google.com/file/d/1A3QC_GH36Z9PqBbLvkKbcB0eD0zTUGK5/view?usp=drive_link), put it in `../checkpoints/GDSCv2`,
-- [CLDR_Mar12-07:01:52.pth](https://drive.google.com/file/d/1pzjX1BZY2sHp6SfY-UrbRf5jTp-QUwDI/view?usp=drive_link), put it in `../checkpoints/GDSCv2`,
+- [CLDR_Mar12-07:01:52.pth](https://drive.google.com/file/d/1pzjX1BZY2sHp6SfY-UrbRf5jTp-QUwDI/view?usp=drive_link), put it in `../data`,
 - [gdscv2.csv](https://drive.google.com/file/d/1M7RmBe0byGF1SBfYcaof7V3Z-RO1jF-y/view?usp=drive_link), put it in `../data`
 - [PANCANCER_Genetic_feature.csv](https://drive.google.com/file/d/162eB0mSiaPHzjDNBAK2Kve9rT_4qqSXO/view?usp=drive_link), put it in `../data`
 - [valid_idx_gdscv2.json](https://drive.google.com/file/d/19N1L6l52cVgti_IU2sL4F67PHF0Xfuoa/view?usp=drive_link), put it in `../data`
-- [gdscv2_test_nx.pkl](https://drive.google.com/file/d/1Y-8nCjMlh5CSoz0z2NuWiYM86xE3U5n6/view?usp=drive_link), put it in `../data`
 
 ## Framework
 
